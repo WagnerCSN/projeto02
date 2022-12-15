@@ -1,0 +1,112 @@
+body{
+    border: 0;
+    font-family: 'Open Sans', sans-serif;
+    background: linear-gradient(180deg, rgba(227, 255, 248, 0) 82.08%, rgba(227, 255, 248, 0.38) 100%);
+    min-height: 100vh;/*a tela vai ter a altura maxima do monitor de no minimo 100.*/
+}
+
+.page{
+    width: 1000px; /*largura*/
+    margin: 0 auto;
+    padding-top: 65px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between; /*coloca os elementos nos cantos*/
+    align-items: center;
+    margin-bottom: 58px;
+}
+
+ul{
+    font-family: 'Mulish', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none; /*tira as bolinhas*/
+    gap: 48px; /*espaço entre os elementos*/
+    align-items: center; /*alinha o item no centro*/
+}
+
+ul li a:hover{ /*quando passar o mouse em cima*/
+    font-weight: bold;/*largura da fonte*/
+    color: rgba(31, 21, 52, 1);
+    opacity: 1;
+}
+
+a{
+    text-decoration: none; /*remove o soblinhado do link*/
+    color: #1F1534;
+}
+
+ul li a{
+    opacity: 0.5;
+}
+
+h1{
+    font-family: 'Mulish', sans-serif;
+    font-size: 49px; 
+    font-weight: normal;
+    line-height: 56px; /*altura da linha*/
+    color: #1F1534;
+    width: 489px; /*largura do h1*/
+}
+
+span{
+    color: #89C5CC;
+}
+
+section p{
+    line-height: 28px;
+    color: #7D7987;
+    font-size: 14px;
+    margin: 40px 0;
+}
+
+button{
+    border: none;
+    color: white;
+    margin: auto;
+    padding: 32px 14px;
+    text-transform: uppercase; /*transforma todas as letras em maiuscula*/
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 32px 15px;
+    gap: 10px;
+    background: #69B99D;
+    border-radius: 4px;
+    cursor: pointer; /*o cursor vira uma maozinha quando fica em cima do botão*/
+}
+
+button:hover{
+    background: #409174;
+}
+
+footer{ 
+    font-size: 14px;
+    line-height: 28px;
+    color:#1F1534;
+    text-align: center;
+    margin-top: 80px;
+}
+
+footer a{
+    font-weight: bold;
+    }
+
+main{
+    display: flex;
+    justify-content: space-between; /*coloca os elementos nos cantos*/
+    align-items: center; /*coloca os elementos na mesma linha*/
+    margin-bottom: 82px;
+}
+
+#balls{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
